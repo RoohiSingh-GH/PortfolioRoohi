@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -13,10 +14,7 @@
     <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon" />
 
     <!-- google fonts -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet" />
 
     <!-- font awesome -->
     <link rel="stylesheet" href="css/font-awesome/css/all.css" />
@@ -27,302 +25,493 @@
     <!-- animate css -->
     <link rel="stylesheet" href="css/animate/animate.css" />
 
+    <!-- magnific-popup css -->
+    <link rel="stylesheet" href="css/magnific-popup/magnific-popup.css">
+
     <!-- style css -->
     <link rel="stylesheet" href="css/style.css" />
-  </head>
+</head>
 
-  <body>
+<body data-spy="scroll" data-target=".navbar-fixed-top" data-offset="65">
+
+    <header>
+        <nav class="navbar navbar-fixed-top" role="navigation">
+
+            <div class="container-fluid">
+                <div class="nav-wrapper">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+
+                        <a class="navbar-brand" href="#home">
+                            <i class="fas fa-link"></i>
+                        </a>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="menu">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#work">Work</a></li>
+                            <li><a href="#skills">Technical Skills</a></li>
+                            <li><a href="#belief">Belief</a></li>
+                            <li><a href="#education">Education</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+
     <!-- Home -->
     <section id="home">
-      <div id="home-cover" class="bg-parallax animated fadeIn">
-        <div id="home-content-box">
-          <div id="home-content-box-inner" class="text-center">
-            <div id="home-heading" class="animated zoomIn">
-              <h3>
-                Roohi Singh <br />
-                Software Developer
-              </h3>
-            </div>
+        <div id="home-cover" class="bg-parallax animated fadeIn">
+            <div id="home-content-box">
+                <div id="home-content-box-inner" class="text-center">
+                    <div id="home-heading" class="animated zoomIn">
+                        <h3>
+                            Roohi Singh <br />
+                            Software Developer
+                        </h3>
+                    </div>
 
-            <div id="home-btn" class="animated zoomIn">
-              <a
-                class="btn btn-lg btn-general btn-white"
-                href="#work"
-                role="button"
-                title="View Work"
-                >View Work</a
-              >
+                    <div id="home-btn" class="animated zoomIn">
+                        <a class="btn btn-lg btn-general btn-white" href="#work" role="button" title="View Work">View Work</a>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </section>
 
     <!-- Services -->
     <section id="services">
-      <div class="content-box">
-        <div
-          class="content-title wow fadeInDown"
-          data-wow-duration="1s"
-          data-wow-delay=".5s"
-        >
-          <h3>Services</h3>
-          <div class="content-title-underline"></div>
+        <div class="content-box">
+            <div class="content-title wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+                <h3>Services</h3>
+                <div class="content-title-underline"></div>
+            </div>
+            <div class="container">
+                <div class="row wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                    <div class="col-md-4">
+                        <div class="service-item">
+                            <div class="service-item-icon">
+                                <i class="fa fa-paint-brush fa-2x"></i>
+                            </div>
+
+                            <div class="service-item-title">
+                                <h3>WEB DESIGN</h3>
+                            </div>
+
+                            <div class="service-item-desc">
+                                <p>lorem</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="service-item">
+                            <div class="service-item-icon">
+                                <i class="fa fa-laptop fa-2x"></i>
+                            </div>
+
+                            <div class="service-item-title">
+                                <h3>WEB DEVELOPMENT</h3>
+                            </div>
+
+                            <div class="service-item-desc">
+                                <p>lorem</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="service-item">
+                            <div class="service-item-icon">
+                                <i class="fa fa-tablet fa-2x"></i>
+                            </div>
+
+                            <div class="service-item-title">
+                                <h3>MOBILE APPS</h3>
+                            </div>
+
+                            <div class="service-item-desc">
+                                <p>lorem</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="container">
-          <div
-            class="row wow fadeInUp"
-            data-wow-duration="1s"
-            data-wow-delay=".5s"
-          >
-            <div class="col-md-4">
-              <div class="service-item">
-                <div class="service-item-icon">
-                  <i class="fa fa-paint-brush fa-2x"></i>
-                </div>
-
-                <div class="service-item-title">
-                  <h3>WEB DESIGN</h3>
-                </div>
-
-                <div class="service-item-desc">
-                  <p>lorem</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="service-item">
-                <div class="service-item-icon">
-                  <i class="fa fa-laptop fa-2x"></i>
-                </div>
-
-                <div class="service-item-title">
-                  <h3>WEB DEVELOPMENT</h3>
-                </div>
-
-                <div class="service-item-desc">
-                  <p>lorem</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="service-item">
-                <div class="service-item-icon">
-                  <i class="fa fa-tablet fa-2x"></i>
-                </div>
-
-                <div class="service-item-title">
-                  <h3>MOBILE APPS</h3>
-                </div>
-
-                <div class="service-item-desc">
-                  <p>lorem</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-4">
-              <div class="service-item">
-                <div class="service-item-icon">
-                  <i class="fa fa-paint-brush fa-2x"></i>
-                </div>
-
-                <div class="service-item-title">
-                  <h3>WEB DESIGN</h3>
-                </div>
-
-                <div class="service-item-desc">
-                  <p>lorem</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="service-item">
-                <div class="service-item-icon">
-                  <i class="fa fa-paint-brush fa-2x"></i>
-                </div>
-
-                <div class="service-item-title">
-                  <h3>WEB DESIGN</h3>
-                </div>
-
-                <div class="service-item-desc">
-                  <p>lorem</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="service-item">
-                <div class="service-item-icon">
-                  <i class="fa fa-paint-brush fa-2x"></i>
-                </div>
-
-                <div class="service-item-title">
-                  <h3>WEB DESIGN</h3>
-                </div>
-
-                <div class="service-item-desc">
-                  <p>lorem</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </section>
 
     <!-- About -->
     <section id="about">
-      <!-- About right side with diagonal parallax effect -->
+        <!-- About right side with diagonal parallax effect -->
 
-      <div id="about-bg-diagonal"></div>
+        <div id="about-bg-diagonal" class="bg-parallax"></div>
 
-      <!-- About left side with section -->
+        <!-- About left side with section -->
 
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <div id="about-content-box">
-              <div id="about-content-box-outer">
-                <div id="about-content-box-inner">
-                  <div
-                    class="content-title wow animated fadeInDown"
-                    data-wow-duration="1s"
-                    data-wow-delay=".5s"
-                  >
-                    <h3>About Me</h3>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div id="about-content-box">
+                        <div id="about-content-box-outer">
+                            <div id="about-content-box-inner">
+                                <div class="content-title wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+                                    <h3>About Me</h3>
 
-                    <div class="content-title-underline"></div>
-                  </div>
+                                    <div class="content-title-underline"></div>
+                                </div>
 
-                  <div
-                    id="about-desc"
-                    class="wow animated fadeInDown"
-                    data-wow-duration="1s"
-                    data-wow-delay=".5s"
-                  >
-                    <p>
-                      Magna arbitror et dolor amet, fabulas do noster non eu
-                      mentitum praesentibus e est ex quid cupidatat. Dolore
-                      reprehenderit probant quorum tempor, illum hic ut illum
-                      pariatur. Qui o magna aute labore.
-                    </p>
-                  </div>
+                                <div id="about-desc" class="wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+                                    <p>
+                                        Magna arbitror et dolor amet, fabulas do noster non eu
+                                        mentitum praesentibus e est ex quid cupidatat. Dolore
+                                        reprehenderit probant quorum tempor, illum hic ut illum
+                                        pariatur. Qui o magna aute labore.
+                                    </p>
+                                </div>
 
-                  <div
-                    id="about-btn"
-                    class="wow animated fadeInUp"
-                    data-wow-duration="1s"
-                    data-wow-delay=".5s"
-                  >
-                    <a
-                      class="btn btn-lg btn-general btn-brown"
-                      href="#work"
-                      role="button"
-                      >Our Work</a
-                    >
-                  </div>
+                                <div id="about-btn" class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                                    <a class="btn btn-lg btn-general btn-brown" href="#work" role="button">Our Work</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
     </section>
 
-    <!-- tempory space-->
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
+    <!-- Work -->
+    <section id="work">
+        <div class="content-box">
+            <div class="content-title animated wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+                <h3>MY WORK</h3>
+                <div class="content-title-underline"></div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row no-gutter animated wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+
+                <div class="col-md-3">
+                    <div class="img-wrapper">
+                        <a href="img/roohi.jpg" title="description">
+                            <img src="img/roohi.jpg" class="img-responsive" alt="work">
+                        </a>
+
+                    </div>
+
+                </div>
+                <div class="col-md-3">
+                    <div class="img-wrapper">
+                        <a href="img/roohi.jpg" title="description">
+                            <img src="img/roohi.jpg" class="img-responsive" alt="work">
+                        </a>
+
+                    </div>
+
+                </div>
+                <div class="col-md-3">
+                    <div class="img-wrapper">
+                        <a href="img/roohi.jpg" title="description">
+                            <img src="img/roohi.jpg" class="img-responsive" alt="work">
+                        </a>
+
+                    </div>
+
+                </div>
+                <div class="col-md-3">
+                    <div class="img-wrapper">
+                        <a href="img/roohi.jpg" title="description">
+                            <img src="img/roohi.jpg" class="img-responsive" alt="work">
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+        <div id="skills-cover" class="bg-parallax">
+
+            <div class="content-box">
+                <div class="content-title wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+                    <h3>Technical Skills</h3>
+                    <div class="content-title-underline"></div>
+                </div>
+
+                <div class="container-fluid">
+                    <div class="row text-center wow animated bounceInRight" data-wow-duration="1s" data-wow-delay=".5s">
+
+                        <div class="col-md-3">
+                            <div class="skills-item">
+                                <h3>Languages</h3>
+                                <ul>
+                                    <li>Android</li>
+                                    <li>Java</li>
+                                    <li>Swift</li>
+                                    <li>MySQL</li>
+                                    <li>HTML5</li>
+                                    <li>CSS3</li>
+                                    <li>SQL</li>
+                                    <li>C++</li>
+                                    <li>Javascript</li>
+                                    <li>Bootstrap Framework</li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="skills-item">
+                                <h3>Database</h3>
+                                <ul>
+                                    <li>SQLite</li>
+                                    <li>MongoDB</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="col-md-3">
+                            <div class="skills-item">
+                                <h3>Development Tools</h3>
+                                <ul>
+                                    <li>Android Studio</li>
+                                    <li>Visual Studio Code</li>
+                                    <li>Eclipse</li>
+                                    <li>Xcode</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="skills-item">
+                                <h3>Methodologies</h3>
+                                <ul>
+                                    <li>UML</li>
+                                    <li>REST API</li>
+                                    <li>Data Structures</li>
+                                    <li>Agile Software Development</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Belief -->
+    <section id="belief">
+        <div id="belief-cover" class="bg-parallax">
+
+            <div class="content-box">
+                <div class="content-title content-title-white wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+                    <h3>Believe In</h3>
+                    <div class="content-title-underline"></div>
+                </div>
+
+                <div class="container">
+                    <div class="row text-center wow animated bounceInLeft" data-wow-duration="1s" data-wow-delay=".5s">
+
+                        <div class="col-md-3">
+                            <div class="belief-item">
+                                <i class="fa fa-users fa-5x"></i>
+                                <h2><span class="team">Team Work</span></h2>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="belief-item">
+                                <i class="fa fa-hourglass-half fa-5x"></i>
+                                <h2><span class="team">Self Management</span></h2>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-3">
+
+                            <div class="belief-item">
+                                <i class="fa fa-lightbulb fa-5x"></i>
+                                <h2><span class="team">Seek Brilliance</span></h2>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="belief-item">
+                                <i class="fa fa-question-circle fa-5x"></i>
+                                <h2><span class="team">Curious learning</span></h2>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education">
+        <div id="education-cover" class="bg-parallax">
+
+            <div class="content-box">
+                <div class="content-title wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+                    <h3>Education</h3>
+                    <div class="content-title-underline"></div>
+                </div>
+
+                <div class="container-fluid">
+                    <div class="row text-center wow animated bounceInRight" data-wow-duration="1s" data-wow-delay=".5s">
+
+                        <div class="col-md-6">
+                            <div class="education-item">
+                                <img src="img/lambton-logo.png">
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="education-item">
+                                <h3>Post Graduate Certificate</h3>
+                                <h4>Toronto, Canada</h4>
+                                <h4>September 2019 - Present</h4>
+                                <h4>Current GPA - 3.14</h4>
+                                <p>I decided to do a vocational course due to my interest in phonesand websites and I applied for Mobile Application Design and Development in Lambton College. This course has given me a very hands on practical approach towards developing software applications for mobile on both iOS and Android platforms.In addition to this learned building static as well as responsive websites.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row text-center wow animated bounceInRight" data-wow-duration="1s" data-wow-delay=".5s">
+
+                        <div class="col-md-6">
+                            <div class="education-item">
+                                <img src="img/thapar-logo.jpeg">
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="education-item">
+                                <h3>Masters of Technology</h3>
+                                <h4>Punjab, India</h4>
+                                <h4>July 2016 - July 2018</h4>
+                                <p>Amazed by the knowledge gained during bachelors of Technology leads me do Masters of Technology in VLSI DESIGN where I learned about verification of electronics chips used in various electronics devices.As always eager to learn new things I moved further and did small courses on website to enhance my skills which I have at that moment.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row text-center wow animated bounceInRight" data-wow-duration="1s" data-wow-delay=".5s">
+
+                        <div class="col-md-6">
+                            <div class="education-item">
+                                <img src="img/ptu-logo.png">
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="education-item">
+                                <h3>Bachelors of Technology</h3>
+                                <h4>Punjab, India</h4>
+                                <h4>August 2011 - April 2015</h4>
+                                <p>Back in 2011, I was impressed by the technology emerging to its peak which created my interest to pursue Bachelors of Technology in Electronics and Communication Engineering.During my 4 years of study I gain skills and knowledge of electronics devices.Inbetween of this course I gained additional knowledge regarding website designing and mobile applications by doing small courses during breaks.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div id="contact">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div id="contact-left">
+                            <h3>ROOHI SINGH</h3>
+
+                            <p>I believe in <strong>SIMPLE</strong> Approach and <strong>MODERN</strong> Design for my work.</p>
+
+                            <div id="contact-info">
+                                <address>
+                                    <strong>Home</strong>
+                                    <p>26,2758 Eglinton Ave East<br> Scarborough, ON M1J 3P3</p>
+                                </address>
+
+                                <div id="phone-email">
+                                    <p><strong>Phone:</strong><span>(437)-249-1092</span></p>
+                                    <p><strong>Email: </strong>singhroohi184@gmail.com</p>
+
+                                </div>
+
+
+                            </div>
+                            <ul class="social-list">
+                                <li><a href="#" class="social-icon icon-white"><i class="fab fa-github"></i></a></li>
+                                <li><a href="#" class="social-icon icon-white"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#" class="social-icon icon-white"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#" class="social-icon icon-white"><i class="fab fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div id="contact-right">
+                            <h3>Contact Me</h3>
+                            <form action="#">
+                                <input type="text" name="full-name" placeholder="Full Name" class="form-control">
+                                <input type="text" name="email" placeholder="Email Address" class="form-control">
+                                <textarea rows="5" name="message" placeholder="Message.." class="form-control"></textarea>
+                                <div id=send-btn>
+                                    <a class="btn btn-lg btn-general btn-white" href="#" role="button">Send</a>
+
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer-bottom">
+            <div class="container">
+                <div class="col-md-6">
+                    <div id="footer-copyrights">
+                        <p>Copyrights &copy; 2020 Website by Roohi Singh</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div id="footer-menu">
+                        <ul>
+                            <li><a href="#home">Home</a>/</li>
+                            <li><a href="#services">Services</a>/</li>
+                            <li><a href="#about">About</a>/</li>
+                            <li><a href="#work">Work</a>/</li>
+                            <li><a href="#skills">Technical Skills</a>/</li>
+                            <li><a href="#belief">Belief</a>/</li>
+                            <li><a href="#education">Education</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <!-- JQuery -->
     <script src="js/jquery.js"></script>
@@ -333,7 +522,9 @@
     <!-- wow JS -->
     <script src="js/wow/wow.min.js"></script>
 
+    <!-- magnific-popup JS -->
+    <script src="js/magnific-popup/jquery.magnific-popup.min.js"></script>
+
     <!-- custom JS -->
     <script src="js/custom.js"></script>
-  </body>
-</html>
+</body></html>

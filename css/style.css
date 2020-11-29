@@ -20,7 +20,7 @@ body {
 }
 
 p {
-    
+
     color: #64707b;
     font-size: 15px;
     font-weight: 300;
@@ -101,13 +101,13 @@ btn-white:focus {
 }
 
 .btn-brown {
-    border-color: #3C0000 ;
-    color: #3C0000 ;
+    border-color: #3C0000;
+    color: #3C0000;
 }
 
 .btn-brown:hover,
 btn-brown:focus {
-    background-color: #3C0000 ;
+    background-color: #3C0000;
     color: #fff;
 }
 
@@ -149,6 +149,10 @@ btn-brown:focus {
     margin: 0 0 30px;
 }
 
+.content-title-white h3 {
+    color: #fff;
+}
+
 .content-title-underline {
     width: 30px;
     height: 3px;
@@ -168,13 +172,13 @@ btn-brown:focus {
 }
 
 .service-item-icon i {
-    color: #3C0000 ;
+    color: #3C0000;
     float: left;
     padding: 15px;
     margin-right: 25px;
     width: 75px;
     height: 75px;
-    text-align: center;  
+    text-align: center;
 }
 
 .service-item:hover .service-item-icon i {
@@ -198,13 +202,13 @@ btn-brown:focus {
 =====================================*/
 
 #about-bg-diagonal {
-    width: 60px;
+    width: 60%;
     height: 700px;
     float: right;
-    background-image: url(../img/bg-about.jpg);
+    background-image: url(../img/roohi.jpg);
     border-left: 200px solid #fff;
     border-top: 700px solid transparent;
-    
+
 }
 
 #about-content-box {
@@ -235,3 +239,275 @@ btn-brown:focus {
     margin-bottom: 30px;
 }
 
+/*=====================================
+               WORK
+=====================================*/
+.row.no-gutter [class*=col-] {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.img-wrapper {
+    overflow: hidden;
+}
+
+.img-wrapper img {
+    transition: transform .5s ease;
+}
+
+.img-wrapper img:hover {
+    transform: scale(1.5);
+    cursor: zoom-in;
+}
+
+/*=====================================
+               BELIEF
+=====================================*/
+
+#belief-cover {
+    background-image: url("../img/bg-belief.jpg");
+    margin-top: 50px;
+}
+
+#belief .content-box {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.belief-item {
+    padding: 100px 0;
+}
+
+.belief-item i {
+    color: #fff;
+}
+
+.belief-item h2 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 15px;
+    margin-bottom: 1px;
+}
+
+/*=====================================
+             SKILLS
+=====================================*/
+
+.skills-item {
+    text-decoration: none;
+}
+
+.skills-item > ul > li {
+    list-style: none;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #050609 ;
+    text-align: center;
+   
+}
+
+.skills-item h3 {
+    color: #050609;
+}
+
+/*=====================================
+                NAVIGATION
+=====================================*/
+
+.education-item {
+    margin-top: 30px;
+    text-decoration: none;
+    padding-right: 20px;
+    margin-right: 50px;
+    margin-left: 0;
+}
+
+.education-item > img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 250px;
+    height: 200px;
+}
+
+.education-item > p {
+  text-align: justify;
+}
+
+
+/*=====================================
+            SOCIAL
+=====================================*/
+
+.social-list {
+    padding-left: 0;
+}
+
+.social-list li {
+    list-style: none;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-right: 6px;
+    margin-top: 10px;
+}
+
+.social-icon i {
+    font-size: 17px;
+}
+
+.icon-white i {
+    color: #fff;
+}
+
+.social-icon i:hover {
+    color: #34c6d3;
+}
+
+/*=====================================
+             CONTACT
+=====================================*/
+
+footer {
+    background-color: #41464b;
+    padding-top: 30px;
+    border-top: 5px solid rgba(0, 0, 0, 0.1);
+}
+
+#contact-left h3,
+#contact-right h3 {
+    color: #fff;
+    font-size: 27px;
+    font-weight: 700;
+}
+
+#contact-left p {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+#contact-info {
+    background-image: url("../img/world-map.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+address {
+    color: #fff;
+}
+
+address strong,
+#contact-info strong {
+    letter-spacing: 1px;
+
+}
+
+form .form-control {
+    background: transparent;
+    border-radius: 0;
+    border-color: #fff;
+    font-size: 17px;
+    font-weight: 300;
+    padding: 8px 16px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+/*=====================================
+               FOOTER
+=====================================*/
+
+#footer-bottom {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 30px 0;
+    margin-top: 60px;
+}
+
+#footer-copyrights p {
+    margin: 0;
+    color: #fff;
+}
+
+#footer-menu {
+    float: left;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#footer-menu ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+#footer-menu ul li {
+    display: inline-block;
+}
+
+#footer-menu a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+#footer-menu a:hover {
+    color: #34c6d3;
+}
+
+/*=====================================
+                NAVIGATION
+=====================================*/
+
+.navbar {
+    padding: 20px 0;
+    transition: all .5s ease-in-out;
+}
+
+.pot-top-nav {
+    background:rgba(0,0,0,0.7);
+    padding: 7px 0;
+}
+
+.nav-wrapper {
+    padding: 0 85px;
+}
+
+.navbar-nav {
+    float: right;
+}
+
+.navbar-nav > li > a {
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;  
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
+    background: none;
+    color: #34c6d3 ;
+}
+
+.navbar-toggle {
+    background-color: rgba(0,0,0,0.1);
+    border: 1px solid #fff;
+    border-radius: 0;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-collapse {
+    max-height: none !important;
+}
+
+.pot-top-nav ul.navbar-nav > li.active > a {
+    color: #34c6d3;
+}
