@@ -247,6 +247,7 @@ btn-brown:focus {
     padding-right: 0;
 }
 
+
 .img-wrapper {
     overflow: hidden;
 }
@@ -512,7 +513,8 @@ form .form-control {
     color: #34c6d3;
 }
 
-/*=====================================
-               AYUR NAVIGATION
-=====================================*/
+.navbar-brand {
+    color: #fff;
+}
+
 
